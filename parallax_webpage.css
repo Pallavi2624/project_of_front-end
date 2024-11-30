@@ -1,0 +1,78 @@
+ html,
+ body {
+     height: 100%;
+     margin: 0;
+     font-family: "Lato", sans-serif;
+     font-weight: 500;
+     line-height: 1.9rem;
+     
+ }
+
+ .pimg1 {
+     background-image: url("image4.png");
+     height: 100%;
+ }
+
+ .pimg2 {
+     background-image: url("image2.png");
+     height: 100%;
+ }
+
+ .pimg3 {
+     background-image: url("image3.png");
+     height: 100%;
+ }
+
+ .pimg4 {
+     background-image: url("image1.jpg");
+     height: 100%;
+ }
+
+ .pimg5 {
+     background-image: url("image5.jpg");
+     height: 100%;
+ }
+
+ .pimg1,
+ .pimg2,
+ .pimg3,
+ .pimg4,
+ .pimg5 {
+     position: relative;
+     background-size: cover;
+     /* background-position: center; */
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+
+ }
+
+ .ptext {
+     position: absolute;
+     top: 50%;
+     width: 100%;
+     text-align: center;
+     font-size: 27px;
+     letter-spacing: 4px;
+     text-transform: uppercase;
+
+ }
+
+ .textBg {
+     background-color: #313534;
+     color: #fff;
+     padding: 20px;
+ }
+
+ h2 {
+     text-transform: uppercase;
+
+
+ }
+
+ .section {
+     text-align: center;
+     padding: 50px 80px;
+     color: #fff;
+     background-color: #282e34;
+
+ }
